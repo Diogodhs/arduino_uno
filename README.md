@@ -1,6 +1,12 @@
 # Arduíno Uno
 Testes de componentes para Arduíno Uno.
 
+#RFID
+Funcionando para 3 sensores RFIDs.
+
+Cada ID é armazenado em sua respectiva posição do vetor de Strings IDs[], assim mantendo o último valor armazenado na posição.
+
+O pacote em String no formato "ID_1%ID_2%...%ID_N" é montado na variável de mesmo nome, pacote.
 
 # Referências
 
