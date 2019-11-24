@@ -1,0 +1,20 @@
+#include <Arduino.h>
+#include <Wire.h>
+
+#define SLAVE1 0x01
+
+void receive_event( int howMany ){
+    char temp;
+    while (Wire.available()){
+        temp = Wire.read();
+    }
+}
+
+void setup(){
+    Wire.begin(SLAVE1);
+    Wire.onReceive(receive_event);
+}
+
+void loop(){
+   
+}
